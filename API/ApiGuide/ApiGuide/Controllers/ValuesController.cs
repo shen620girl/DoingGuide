@@ -49,11 +49,15 @@ namespace ApiGuide.Controllers
         {
             return "value";
         }
-        // GET api/values/5
-        [HttpGet("yan")]
-        public ActionResult<PageData<GuideDto>> GetYan()
+        /// <summary>
+        /// guide列表
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <returns></returns>
+        [HttpPost("list")]
+        public ActionResult<PageData<GuideDto>> List([FromBody] GuideListDto dto)
         { //执行
-            return  _guide.List(new GuideListDto {Page = 1, Size = 2});
+            return  _guide.List(dto);
         }
         
 

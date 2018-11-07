@@ -12032,11 +12032,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyGithub\\DoingGuide\\DoingGuide\\API\\ApiGuide\\ApiGuide\\ApiGuide.csproj",
+      "projectUniqueName": "D:\\GitHubProjects\\DoingGuide\\API\\ApiGuide\\ApiGuide\\ApiGuide.csproj",
       "projectName": "ApiGuide",
-      "projectPath": "D:\\MyGithub\\DoingGuide\\DoingGuide\\API\\ApiGuide\\ApiGuide\\ApiGuide.csproj",
+      "projectPath": "D:\\GitHubProjects\\DoingGuide\\API\\ApiGuide\\ApiGuide\\ApiGuide.csproj",
       "packagesPath": "C:\\Users\\icb\\.nuget\\packages\\",
-      "outputPath": "D:\\MyGithub\\DoingGuide\\DoingGuide\\API\\ApiGuide\\ApiGuide\\obj\\",
+      "outputPath": "D:\\GitHubProjects\\DoingGuide\\API\\ApiGuide\\ApiGuide\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
