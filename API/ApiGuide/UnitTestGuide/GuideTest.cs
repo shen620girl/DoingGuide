@@ -28,12 +28,39 @@ namespace UnitTestGuide
 
             Mapper.Initialize(x => x.CreateMap<PageData<TGuides>, PageData<GuideDto>>());
         }
-
+        [TestMethod]
+        public void AddTest()
+        {
+            var dto = new GuideDto
+            {
+                Id = Guid.NewGuid().ToString().Remove(2,7),
+                Name = "jjjjjjjjjjjj",
+                Mobile = "15988888888",
+                Certificate = "345334.url",
+                Headpic = "http://wwes.ssr"
+            };
+            Print(_guide.Add(dto));
+        }
 
         [TestMethod]
-        public void TestMethod1()
+        public void ListTest()
         {
-            Print(_guide.List(new GuideListDto{Page=1,Size=1}));
+            Print(_guide.List(new GuideListDto{Page=1,Size=6}));
+            //Print(new {d1="4453",dd=345,shen="sdfsd"});
+        }
+
+        [TestMethod]
+        public void DetailTest()
+        {
+            string id = "1111111111111";
+            Print(_guide.Detail(id));
+        }
+        [TestMethod]
+        public void TestTotalPage()
+        {
+            double dd = (double)2 / 3;
+            float dds = (float)2 / 3;
+            Print($"{dd}...sss{dds}");
             //Print(new {d1="4453",dd=345,shen="sdfsd"});
         }
     }

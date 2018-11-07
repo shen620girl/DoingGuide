@@ -19,6 +19,12 @@ namespace ApiGuide.Guide.Bussiness
             _despository = new GuideDespository();
        
         }
+        public int Add(GuideDto dto)
+        {
+            var model= Mapper.Map<TGuides>(dto);
+            var data = _despository.Insert(model);
+            return data;
+        }
         public PageData<GuideDto> List(GuideListDto dto)
         {
            
@@ -31,6 +37,12 @@ namespace ApiGuide.Guide.Bussiness
             //};
                  var result = Mapper.Map<PageData<GuideDto>>(data);
             return  result;
-        } 
+        }
+
+        public GuideDto Detail(string id)
+        {
+            var data = _despository.Detail(id);
+            return Mapper.Map<GuideDto>(data);
+        }
     }
 }

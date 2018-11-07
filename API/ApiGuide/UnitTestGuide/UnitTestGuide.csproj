@@ -33,10 +33,4 @@
     <ProjectReference Include="..\Contract\Contract.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="ApiGuide">
-      <HintPath>..\ApiGuide\bin\Debug\netcoreapp2.1\ApiGuide.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

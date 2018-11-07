@@ -45,9 +45,9 @@ namespace ApiGuide.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<GuideDto> Get(string id)
         {
-            return "value";
+            return _guide.Detail(id);
         }
         /// <summary>
         /// guide列表

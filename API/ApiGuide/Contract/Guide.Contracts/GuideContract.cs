@@ -10,6 +10,8 @@ namespace ApiGuide.Guide.Contracts
 {
     public interface IGuideContract
     {
+        int Add(GuideDto dto);
         PageData<GuideDto> List(GuideListDto dto);
+        GuideDto Detail(string id);
     }
 }
