@@ -1,0 +1,15 @@
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\bin\Debug\netcoreapp2.1\ApiGuide.deps.json
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\bin\Debug\netcoreapp2.1\ApiGuide.runtimeconfig.json
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\bin\Debug\netcoreapp2.1\ApiGuide.runtimeconfig.dev.json
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\bin\Debug\netcoreapp2.1\ApiGuide.dll
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\bin\Debug\netcoreapp2.1\ApiGuide.pdb
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.csprojAssemblyReference.cache
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.csproj.CoreCompileInputs.cache
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.RazorAssemblyInfo.cache
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.RazorAssemblyInfo.cs
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.AssemblyInfoInputs.cache
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.AssemblyInfo.cs
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.RazorTargetAssemblyInfo.cache
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.dll
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.pdb
+D:\MyGithub\DoingGuide\DoingGuide\API\ApiGuide\ApiGuide\bin\Debug\netcoreapp2.1\ApiGuide.xml
