@@ -4,7 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.ComTypes;
 using System.Threading.Tasks;
+using ApiGuide.Guide.Bussiness.Entities;
+using ApiGuide.Guide.Contracts.Dtos;
 using ApiGuide.Guide.Contracts.Dtos.FB;
+using ApiGuide.Guide.Contracts.FB;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -51,6 +55,7 @@ namespace ApiGuide
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            Mapper.Initialize(x => x.CreateMap<PageData<TGuides>, PageData<GuideDto>>());
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

@@ -25,6 +25,8 @@
       "ApiGuide/1.0.0": {
         "dependencies": {
           "AutoMapper": "7.0.1",
+          "Bussiness": "1.0.0",
+          "Contract": "1.0.0",
           "Dapper": "1.50.5",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.Extensions.Configuration": "2.1.1",
@@ -422,6 +424,30 @@
           "lib/netcoreapp2.0/Unity.Interception.dll": {},
           "lib/netcoreapp2.0/Unity.RegistrationByConvention.dll": {},
           "lib/netcoreapp2.0/Unity.ServiceLocation.dll": {}
+        }
+      },
+      "Bussiness/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "7.0.1",
+          "Dapper": "1.50.5",
+          "Microsoft.Extensions.Configuration": "2.1.1",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
+          "Microsoft.Extensions.Configuration.Json": "2.1.1",
+          "MySql.Data": "8.0.13"
+        },
+        "runtime": {
+          "Bussiness.dll": {}
+        },
+        "compile": {
+          "Bussiness.dll": {}
+        }
+      },
+      "Contract/1.0.0": {
+        "runtime": {
+          "Contract.dll": {}
+        },
+        "compile": {
+          "Contract.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3502,6 +3528,16 @@
       "sha512": "sha512-C9LCcDvwJBXDx/A3Tlc5AUGfEv9WWAk8ZL+OwK7vrS3tqImlRpw+sFNY4nyzkdPMyyuwpYG4Jov3PHvhFJyNdw==",
       "path": "unity/5.8.11",
       "hashPath": "unity.5.8.11.nupkg.sha512"
+    },
+    "Bussiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

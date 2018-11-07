@@ -1,0 +1,9 @@
+D:\GitHubProjects\DoingGuide\API\ApiGuide\Contract\obj\Debug\netcoreapp2.1\Contract.csprojAssemblyReference.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\Contract\obj\Debug\netcoreapp2.1\Contract.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\Contract\obj\Debug\netcoreapp2.1\Contract.AssemblyInfoInputs.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\Contract\obj\Debug\netcoreapp2.1\Contract.AssemblyInfo.cs
+D:\GitHubProjects\DoingGuide\API\ApiGuide\Contract\bin\Debug\netcoreapp2.1\Contract.deps.json
+D:\GitHubProjects\DoingGuide\API\ApiGuide\Contract\bin\Debug\netcoreapp2.1\Contract.dll
+D:\GitHubProjects\DoingGuide\API\ApiGuide\Contract\bin\Debug\netcoreapp2.1\Contract.pdb
+D:\GitHubProjects\DoingGuide\API\ApiGuide\Contract\obj\Debug\netcoreapp2.1\Contract.dll
+D:\GitHubProjects\DoingGuide\API\ApiGuide\Contract\obj\Debug\netcoreapp2.1\Contract.pdb

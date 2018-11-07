@@ -4493,6 +4493,34 @@
           "lib/netcoreapp2.0/Unity.RegistrationByConvention.dll": {},
           "lib/netcoreapp2.0/Unity.ServiceLocation.dll": {}
         }
+      },
+      "Bussiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "AutoMapper": "7.0.1",
+          "Dapper": "1.50.5",
+          "Microsoft.Extensions.Configuration": "2.1.1",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
+          "Microsoft.Extensions.Configuration.Json": "2.1.1",
+          "MySql.Data": "8.0.13"
+        },
+        "compile": {
+          "bin/placeholder/Bussiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bussiness.dll": {}
+        }
+      },
+      "Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contract.dll": {}
+        }
       }
     }
   },
@@ -12011,11 +12039,23 @@
         "unity.5.8.11.nupkg.sha512",
         "unity.nuspec"
       ]
+    },
+    "Bussiness/1.0.0": {
+      "type": "project",
+      "path": "../Bussiness/Bussiness.csproj",
+      "msbuildProject": "../Bussiness/Bussiness.csproj"
+    },
+    "Contract/1.0.0": {
+      "type": "project",
+      "path": "../Contract/Contract.csproj",
+      "msbuildProject": "../Contract/Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "AutoMapper >= 7.0.1",
+      "Bussiness >= 1.0.0",
+      "Contract >= 1.0.0",
       "Dapper >= 1.50.5",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.Extensions.Configuration >= 2.1.1",
@@ -12054,7 +12094,14 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitHubProjects\\DoingGuide\\API\\ApiGuide\\Bussiness\\Bussiness.csproj": {
+              "projectPath": "D:\\GitHubProjects\\DoingGuide\\API\\ApiGuide\\Bussiness\\Bussiness.csproj"
+            },
+            "D:\\GitHubProjects\\DoingGuide\\API\\ApiGuide\\Contract\\Contract.csproj": {
+              "projectPath": "D:\\GitHubProjects\\DoingGuide\\API\\ApiGuide\\Contract\\Contract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

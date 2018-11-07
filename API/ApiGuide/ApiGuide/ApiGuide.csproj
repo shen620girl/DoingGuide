@@ -9,7 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Guide.Contracts\Enums\" />
+    <Compile Remove="Guide.Bussiness\**" />
+    <Compile Remove="Guide.Contracts\**" />
+    <Content Remove="Guide.Bussiness\**" />
+    <Content Remove="Guide.Contracts\**" />
+    <EmbeddedResource Remove="Guide.Bussiness\**" />
+    <EmbeddedResource Remove="Guide.Contracts\**" />
+    <None Remove="Guide.Bussiness\**" />
+    <None Remove="Guide.Contracts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -21,6 +31,11 @@
     <PackageReference Include="MySql.Data" Version="8.0.13" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
     <PackageReference Include="Unity" Version="5.8.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bussiness\Bussiness.csproj" />
+    <ProjectReference Include="..\Contract\Contract.csproj" />
   </ItemGroup>
 
 </Project>

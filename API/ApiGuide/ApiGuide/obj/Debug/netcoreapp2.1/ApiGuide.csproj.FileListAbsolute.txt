@@ -28,3 +28,8 @@ D:\GitHubProjects\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGu
 D:\GitHubProjects\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.RazorTargetAssemblyInfo.cache
 D:\GitHubProjects\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.dll
 D:\GitHubProjects\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.pdb
+D:\GitHubProjects\DoingGuide\API\ApiGuide\ApiGuide\bin\Debug\netcoreapp2.1\Bussiness.dll
+D:\GitHubProjects\DoingGuide\API\ApiGuide\ApiGuide\bin\Debug\netcoreapp2.1\Contract.dll
+D:\GitHubProjects\DoingGuide\API\ApiGuide\ApiGuide\bin\Debug\netcoreapp2.1\Bussiness.pdb
+D:\GitHubProjects\DoingGuide\API\ApiGuide\ApiGuide\bin\Debug\netcoreapp2.1\Contract.pdb
+D:\GitHubProjects\DoingGuide\API\ApiGuide\ApiGuide\obj\Debug\netcoreapp2.1\ApiGuide.csproj.CopyComplete
