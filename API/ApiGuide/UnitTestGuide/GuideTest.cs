@@ -26,7 +26,7 @@ namespace UnitTestGuide
             //返回调用者
             _guide = container.Resolve<GuideService>();
 
-            Mapper.Initialize(x => x.CreateMap<PageData<TGuides>, PageData<GuideDto>>());
+            Mapper.Initialize(x => x.CreateMap<PageData<TGuide>, PageData<GuideDto>>());
         }
         [TestMethod]
         public void AddTest()

@@ -21,7 +21,7 @@ namespace ApiGuide.Guide.Bussiness
         }
         public int Add(GuideDto dto)
         {
-            var model= Mapper.Map<TGuides>(dto);
+            var model= Mapper.Map<TGuide>(dto);
             var data = _despository.Insert(model);
             return data;
         }

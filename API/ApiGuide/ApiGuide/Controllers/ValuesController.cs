@@ -63,8 +63,9 @@ namespace ApiGuide.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult<int> Post([FromBody] GuideDto dto)
         {
+            return _guide.Add(dto);
         }
 
         // PUT api/values/5

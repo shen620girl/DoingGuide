@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ApiGuide.Guide.Bussiness.Entities
 {
-    public class TGuides
+    public class TGuide
     {
         public string Id { get; set; }
         public string Name { get; set; }
