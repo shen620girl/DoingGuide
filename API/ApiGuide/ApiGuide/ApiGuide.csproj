@@ -26,9 +26,12 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="7.0.1" />
     <PackageReference Include="Dapper" Version="1.50.5" />
+    <PackageReference Include="McApp.AppCore.IdentityServer4" Version="3.5.4" />
+    <PackageReference Include="McApp.AppCore.IdentityServer4.EntityFrameworkCore" Version="3.5.4" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
     <PackageReference Include="MySql.Data" Version="8.0.13" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.7.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
     <PackageReference Include="Unity" Version="5.8.11" />
   </ItemGroup>
@@ -36,6 +39,12 @@
   <ItemGroup>
     <ProjectReference Include="..\Bussiness\Bussiness.csproj" />
     <ProjectReference Include="..\Contract\Contract.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="nlog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

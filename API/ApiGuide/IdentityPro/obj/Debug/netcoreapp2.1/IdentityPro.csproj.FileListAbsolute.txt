@@ -1,0 +1,10 @@
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentityPro\bin\Debug\netcoreapp2.1\IdentityPro.deps.json
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentityPro\bin\Debug\netcoreapp2.1\IdentityPro.runtimeconfig.json
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentityPro\bin\Debug\netcoreapp2.1\IdentityPro.runtimeconfig.dev.json
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentityPro\bin\Debug\netcoreapp2.1\IdentityPro.dll
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentityPro\bin\Debug\netcoreapp2.1\IdentityPro.pdb
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentityPro\obj\Debug\netcoreapp2.1\IdentityPro.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentityPro\obj\Debug\netcoreapp2.1\IdentityPro.AssemblyInfoInputs.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentityPro\obj\Debug\netcoreapp2.1\IdentityPro.AssemblyInfo.cs
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentityPro\obj\Debug\netcoreapp2.1\IdentityPro.dll
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentityPro\obj\Debug\netcoreapp2.1\IdentityPro.pdb

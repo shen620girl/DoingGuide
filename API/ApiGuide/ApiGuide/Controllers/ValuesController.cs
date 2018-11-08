@@ -9,6 +9,7 @@ using ApiGuide.Guide.Contracts.Dtos;
 using ApiGuide.Guide.Contracts.Dtos.FB;
 using ApiGuide.Guide.Contracts.FB;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Unity;
 
@@ -18,6 +19,7 @@ namespace ApiGuide.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly ILogger<ValuesController> _logger;
         public MysqlDB StarInfoConfig;
         //创建容器
      readonly   UnityContainer container = new UnityContainer();
@@ -25,8 +27,9 @@ namespace ApiGuide.Controllers
 
 
 
-        public ValuesController(IOptions<MysqlDB> settings)
+        public ValuesController(IOptions<MysqlDB> settings, ILogger<ValuesController> logger)
         {
+            _logger = logger;
             StarInfoConfig = settings.Value;
             //注册依赖对象
             container.RegisterType<IGuideContract, GuideService>();
@@ -39,7 +42,7 @@ namespace ApiGuide.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-           
+            _logger.LogInformation("Index page says hello");
             return new string[] { "value1", "value2",StarInfoConfig.ConStr };
         }
 

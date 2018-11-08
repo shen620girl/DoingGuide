@@ -20,7 +20,7 @@ namespace ApiGuide
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                     //IdentityServer4的使用需要配置UseUrls
-                 //.UseUrls("http://localhost:4537")
+                 .UseUrls("http://localhost:4537")
                 .UseStartup<Startup>();
     }
 }

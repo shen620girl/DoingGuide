@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussiness", "Bussiness\Buss
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "Contract\Contract.csproj", "{D2CB2C51-6A8B-4831-B0C0-C2C4C3C0685A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityPro", "IdentityPro\IdentityPro.csproj", "{73A7C7E9-FB3F-4ADA-AD6B-C2D862756E78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D2CB2C51-6A8B-4831-B0C0-C2C4C3C0685A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2CB2C51-6A8B-4831-B0C0-C2C4C3C0685A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2CB2C51-6A8B-4831-B0C0-C2C4C3C0685A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A7C7E9-FB3F-4ADA-AD6B-C2D862756E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A7C7E9-FB3F-4ADA-AD6B-C2D862756E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A7C7E9-FB3F-4ADA-AD6B-C2D862756E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A7C7E9-FB3F-4ADA-AD6B-C2D862756E78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
