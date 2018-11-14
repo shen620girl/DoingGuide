@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js
+">
+</script>
+ <script>
+        $(document).ready(function () {
+         var appDomain = "http://localhost:53972/";
+         $("#btn_fileUpload").click(function () {
+           var fileUpload = $("#files").get(0);
+         var files = fileUpload.files;
+         var data = new FormData();
+         for (var i = 0; i < files.length; i++) {
+          data.append(files[i].name, files[i]);
+         }
+         $.ajax({
+          type: "POST",
+          url: appDomain+'api/Pictures',
+          contentType: false,
+          processData: false,
+          data: data,
+          success: function (data) {
+          console.log(JSON.stringify(data));
+          },
+          error: function () {
+          console.log(JSON.stringify(data));
+          }
+         });
+         });
+         //end click
+        
+        
+        })
+        </script>
+</head>  
+<body>
+        <article>
+        <header>
+         <h2>article-form</h2>
+        </header>
+        <p>
+         <form id="uploadForm" enctype="multipart/form-data">
+         <input type="file" id="files" name="files" placeholder="file" multiple>file-multiple属性可以选择多项<br><br>
+         <input type="button" id="btn_fileUpload" value="fileUpload">
+         </form>
+        </p>
+        </article>
+       </body>

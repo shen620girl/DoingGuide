@@ -1,0 +1,14 @@
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\bin\Debug\netcoreapp2.1\StaticFiles.deps.json
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\bin\Debug\netcoreapp2.1\StaticFiles.runtimeconfig.json
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\bin\Debug\netcoreapp2.1\StaticFiles.runtimeconfig.dev.json
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\bin\Debug\netcoreapp2.1\StaticFiles.dll
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\obj\Debug\netcoreapp2.1\StaticFiles.csprojAssemblyReference.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\obj\Debug\netcoreapp2.1\StaticFiles.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\obj\Debug\netcoreapp2.1\StaticFiles.RazorAssemblyInfo.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\obj\Debug\netcoreapp2.1\StaticFiles.RazorAssemblyInfo.cs
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\obj\Debug\netcoreapp2.1\StaticFiles.AssemblyInfoInputs.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\obj\Debug\netcoreapp2.1\StaticFiles.AssemblyInfo.cs
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\obj\Debug\netcoreapp2.1\StaticFiles.RazorTargetAssemblyInfo.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\bin\Debug\netcoreapp2.1\StaticFiles.pdb
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\obj\Debug\netcoreapp2.1\StaticFiles.dll
+D:\GitHubProjects\DoingGuide\API\ApiGuide\StaticFiles\obj\Debug\netcoreapp2.1\StaticFiles.pdb
