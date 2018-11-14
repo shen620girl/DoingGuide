@@ -1,18 +1,23 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
-
-using IdentityServer4.Models;
+﻿using System;
 using System.Collections.Generic;
-using System.Security.Claims;
+using System.Linq;
+using System.Threading.Tasks;
 using IdentityServer4;
+using IdentityServer4.Models;
 using IdentityServer4.Test;
-using Microsoft.AspNetCore.DataProtection;
-using MySql.Data.MySqlClient.Memcached;
 
-namespace OAuth2Common
+namespace IdentifyPro
 {
-    public class OAuth2Config
+    public static class Oauth2Config
     {
+        public static IEnumerable<IdentityResource> GetIdentityResourceResources()
+        {
+            return new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(), //必须要添加，否则报无效的scope错误
+                new IdentityResources.Profile()
+            };
+        }
         // scopes define the resources in your system
         public static IEnumerable<Scope> GetScopes()
         {
@@ -49,9 +54,14 @@ namespace OAuth2Common
                     AllowedScopes =
                     {
                         "api1",
+                        "api",
                         //Client Credentials模式不支持RefreshToken的，因此不需要设置OfflineAccess
                         //StandardScopes.OfflineAccess.Name,
                     },
+                    AllowedCorsOrigins =new List<string>
+                    {
+                        @"https://localhost:44309"
+                    }
                 },
                 //Resource Owner Password模式
                 new Client
@@ -71,6 +81,10 @@ namespace OAuth2Common
                         //如果想带有RefreshToken，那么必须设置：StandardScopes.OfflineAccess
                         IdentityServerConstants.StandardScopes.OfflineAccess,
                     },
+                    AllowedCorsOrigins =new List<string>
+                    {
+                        @"https://localhost:44309"
+                    }
                     //AccessTokenLifetime = 3600, //AccessToken的过期时间， in seconds (defaults to 3600 seconds / 1 hour)
                     //AbsoluteRefreshTokenLifetime = 60, //RefreshToken的最大过期时间，就算你使用了TokenUsage.OneTimeOnly模式，更新的RefreshToken最大期限也是为这个属性设置的(就是6月30日就得要过期[根据服务器时间]，你用旧的RefreshToken重新获取了新RefreshToken，新RefreshToken过期时间也是6月30日)， in seconds. Defaults to 2592000 seconds / 30 day
                     //RefreshTokenUsage = TokenUsage.OneTimeOnly,   //默认状态，RefreshToken只能使用一次，使用一次之后旧的就不能使用了，只能使用新的RefreshToken
@@ -94,6 +108,12 @@ namespace OAuth2Common
                     SubjectId = "2",
                     Username = "aspros",
                     Password = "b123"
+                },
+                new TestUser
+                {
+                    SubjectId = "3",
+                    Username = "test",
+                    Password = "c123"
                 }
             };
         }
@@ -101,9 +121,9 @@ namespace OAuth2Common
         {
             return new List<ApiResource>
             {
-                new ApiResource("UserApi","用户API")
+                new ApiResource("api1","用户API")
             };
         }
     }
-    
 }
+

@@ -8,6 +8,7 @@ using ApiGuide.Guide.Contracts;
 using ApiGuide.Guide.Contracts.Dtos;
 using ApiGuide.Guide.Contracts.Dtos.FB;
 using ApiGuide.Guide.Contracts.FB;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -15,7 +16,8 @@ using Unity;
 
 namespace ApiGuide.Controllers
 {
-    [Route("api/[controller]")]
+    [Authorize]
+    [Route("api1/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
@@ -40,9 +42,10 @@ namespace ApiGuide.Controllers
         }
         // GET api/values
         [HttpGet]
+       // [Authorize(AuthenticationSchemes = "token")]
         public ActionResult<IEnumerable<string>> Get()
         {
-            _logger.LogInformation("Index page says hello");
+            //_logger.LogInformation("Index page says hello");
             return new string[] { "value1", "value2",StarInfoConfig.ConStr };
         }
 
@@ -57,7 +60,7 @@ namespace ApiGuide.Controllers
         /// </summary>
         /// <param name="dto"></param>
         /// <returns></returns>
-        [HttpPost("list")]
+        [HttpPost("list"),AllowAnonymous]
         public ActionResult<PageData<GuideDto>> List([FromBody] GuideListDto dto)
         { //执行
             return  _guide.List(dto);

@@ -1,0 +1,14 @@
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\bin\Debug\netcoreapp2.1\IdentifyPro.deps.json
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\bin\Debug\netcoreapp2.1\IdentifyPro.runtimeconfig.json
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\bin\Debug\netcoreapp2.1\IdentifyPro.runtimeconfig.dev.json
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\bin\Debug\netcoreapp2.1\IdentifyPro.dll
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\obj\Debug\netcoreapp2.1\IdentifyPro.csprojAssemblyReference.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\obj\Debug\netcoreapp2.1\IdentifyPro.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\obj\Debug\netcoreapp2.1\IdentifyPro.RazorAssemblyInfo.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\obj\Debug\netcoreapp2.1\IdentifyPro.RazorAssemblyInfo.cs
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\obj\Debug\netcoreapp2.1\IdentifyPro.AssemblyInfoInputs.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\obj\Debug\netcoreapp2.1\IdentifyPro.AssemblyInfo.cs
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\obj\Debug\netcoreapp2.1\IdentifyPro.RazorTargetAssemblyInfo.cache
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\bin\Debug\netcoreapp2.1\IdentifyPro.pdb
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\obj\Debug\netcoreapp2.1\IdentifyPro.dll
+D:\GitHubProjects\DoingGuide\API\ApiGuide\IdentifyPro\obj\Debug\netcoreapp2.1\IdentifyPro.pdb

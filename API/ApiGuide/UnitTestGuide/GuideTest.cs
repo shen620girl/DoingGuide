@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography;
 using ApiGuide.Guide.Bussiness;
 using ApiGuide.Guide.Bussiness.Entities;
 using ApiGuide.Guide.Contracts;
@@ -49,6 +50,18 @@ namespace UnitTestGuide
             //Print(new {d1="4453",dd=345,shen="sdfsd"});
         }
 
+        [TestMethod]
+        public void PrivateKeyTest()
+        {
+            using (RSACryptoServiceProvider provider = new RSACryptoServiceProvider(2048))
+                             {
+                                 //Console.WriteLine(Convert.ToBase64String(provider.ExportCspBlob(false)));   //PublicKey
+                            //    Console.WriteLine(Convert.ToBase64String(provider.ExportCspBlob(true)));    //PrivateKey
+                                 Print(Convert.ToBase64String(provider.ExportCspBlob(false)));
+                                 Print("cesiceshi");
+                                 Print(Convert.ToBase64String(provider.ExportCspBlob(true)));
+            }
+        }
         [TestMethod]
         public void DetailTest()
         {
