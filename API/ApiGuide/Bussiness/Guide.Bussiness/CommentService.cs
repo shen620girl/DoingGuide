@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ApiGuide.Comment.Bussiness.Respository;
 using ApiGuide.Comment.Contracts;
+using ApiGuide.Common;
 using ApiGuide.Guide.Bussiness.Entities;
 using ApiGuide.Guide.Contracts.Dtos;
 using ApiGuide.Guide.Contracts.FB;
@@ -29,12 +30,6 @@ namespace ApiGuide.Comment.Bussiness
         {
            
             var data =_despository.List(dto);
-            //PageData<CommentDto> res = new PageData<CommentDto>
-            //{
-            //    TotalNum = data.TotalNum,
-            //    TotalPageCount = data.TotalPageCount,
-            //    Items = Mapper.Map<List<CommentDto>>(data.Items)
-            //};
                  var result = Mapper.Map<PageData<CommentDto>>(data);
             return  result;
         }

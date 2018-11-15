@@ -20,11 +20,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Common\MailHelper.cs" />
     <Compile Remove="OAuth2\MyUserValidator.cs" />
     <Compile Remove="OAuth2\OAuth2Config.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Common\" />
     <Folder Include="OAuth2\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>

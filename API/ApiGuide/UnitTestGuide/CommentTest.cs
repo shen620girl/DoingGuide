@@ -2,6 +2,7 @@ using System;
 
 using ApiGuide.Comment.Bussiness;
 using ApiGuide.Comment.Contracts;
+using ApiGuide.Common;
 using ApiGuide.Guide.Bussiness.Entities;
 using ApiGuide.Guide.Contracts.Dtos;
 using ApiGuide.Guide.Contracts.FB;
@@ -47,6 +48,7 @@ namespace UnitTestComment
         [TestMethod]
         public void ListTest()
         {
+           // MailHelper.SecondTry();
             Print(_Comment.List(new CommentListDto{Page=1,Size=6}));
             //Print(new {d1="4453",dd=345,shen="sdfsd"});
         }
