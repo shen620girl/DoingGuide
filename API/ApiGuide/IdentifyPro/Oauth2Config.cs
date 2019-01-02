@@ -36,49 +36,40 @@ namespace IdentifyPro
         // client want to access resources (aka scopes)
         public static IEnumerable<Client> GetClients()
         {
-            // client credentials client
             return new List<Client>
             {
-                //Client Credentials模式
+               
                 new Client
                 {
-                    //client_id
-                    ClientId = "credt_client",
+                    ClientId = "credt_client", //client_id
                     AllowedGrantTypes = new string[] { GrantType.ClientCredentials },
-                    //client_secret
                     ClientSecrets =
                     {
                         new Secret("credt_secret".Sha256())
                     },
-                    //scope
                     AllowedScopes =
                     {
                         "api1",
                         "api",
-                        //Client Credentials模式不支持RefreshToken的，因此不需要设置OfflineAccess
-                        //StandardScopes.OfflineAccess.Name,
                     },
                     AllowedCorsOrigins =new List<string>
                     {
                         @"https://localhost:44309"
                     }
                 },
-                //Resource Owner Password模式
+             
                 new Client
                 {
-                    //client_id
+                 
                     ClientId = "pwd_client",
                     AllowedGrantTypes = new string[] { GrantType.ResourceOwnerPassword },
-                    //client_secret
                     ClientSecrets =
                     {
                         new Secret("pwd_secret".Sha256())
                     },
-                    //scope
                     AllowedScopes =
                     {
                         "api1",
-                        //如果想带有RefreshToken，那么必须设置：StandardScopes.OfflineAccess
                         IdentityServerConstants.StandardScopes.OfflineAccess,
                     },
                     AllowedCorsOrigins =new List<string>

@@ -38,14 +38,14 @@ namespace ApiGuide.Controllers
 
            
         }
-     
+
 
         [HttpPost]
-        public void Post([FromBody] string subject,[FromBody]string emailaddress)
+        public void Post( string subject, string emailaddress)
         {
-             MailHelper.SecondTry(subject, emailaddress);
-            
+            MailHelper.SecondTry(subject, emailaddress);
+
         }
-    
+
     }
 }

@@ -17,7 +17,7 @@ using Unity;
 namespace ApiGuide.Controllers
 {
     [Authorize]
-    [Route("api/[controller]")]
+    [Route("api1/[controller]")]
     [ApiController]
     public class GuideController : ControllerBase
     {
